@@ -1,0 +1,126 @@
+/*Code couleur */
+/*Gris color: #686868;*/
+/*rouge color : #BF1818*/
+
+/*General*/
+
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	
+}
+h2{
+	color: #686868;
+	font-family: 'Poppins', sans-serif!important;
+	font-weight: bold!important;
+	font-size: 19px!important;
+
+}
+h1{
+	font-size: 60px!important;
+	margin: 0;
+	font-family: 'Poppins', sans-serif!important;
+	font-weight: bold!important;
+}
+p{
+	color: #686868;
+	font-family: 'Poppins', sans-serif!important;
+}
+a{
+	font-family: 'Poppins', sans-serif!important;
+		color: inherit!important;
+}
+
+/*Nav*/
+
+
+nav .container{
+	padding: 0!important;
+} 
+
+
+nav ul li a {
+	text-decoration: none;
+	color: #333; 
+	font-weight: bold;
+
+
+	
+}
+
+nav ul li {
+	margin-left: 20px;
+}
+nav ul li #btnLogin{
+	background: #BF1818;
+	padding: 15px 15px;
+	border-radius: 50px;
+	box-shadow:  1px 1px 5px #686868;
+	line-height: 45px;
+
+}
+
+nav ul li #btnLogin a{
+	color: white;
+}
+
+.img-1{
+	max-width: 60px;
+	max-height: 40px;
+	margin: auto 0;
+	
+}
+
+/*Section*/
+.btn-start{
+	
+	padding: 15px 90px; 
+	background: #BF1818;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	margin: auto 0;
+	line-height: 90px;
+	border-radius: 0 0 50px 0;
+	box-shadow:  1px 1px 5px #686868;
+}
+
+
+
+
+.img-2{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+@media (max-width: 992px) {
+
+
+h1{
+	font-size: 40px!important;
+}
+
+
+}
+
+@media (max-width: 768px) {
+
+h1{
+	font-size: 50px!important;
+}
+
+}
+
+@media (max-width: 476px) {
+
+h1{
+	font-size: 25px!important;
+}
+
+}
